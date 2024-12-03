@@ -79,5 +79,6 @@ Practice Makes Perfect
 Sarah Adams continua a inspirar leitores com suas histórias encantadoras, promovendo o amor e a alegria em cada página.       
         `
     }
-
 ]
+
+export default autores;
