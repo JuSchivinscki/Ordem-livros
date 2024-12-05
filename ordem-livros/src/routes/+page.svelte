@@ -1,8 +1,10 @@
 <script>
-    import Logo from "../components/template/Logo.svelte";
+
+    import series from "../constants/series";
 
 </script>
 
+{#each series as serie}
+    <span>{series.titulo}</span>
+{/each}
 
-<h1 class="text-3xl font-bold">Romance em Páginas</h1>
-<a href="/autores">Autores</a>
