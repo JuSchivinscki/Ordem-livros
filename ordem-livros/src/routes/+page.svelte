@@ -1,10 +1,10 @@
 <script>
-
+    import ItemSerie from "../components/serie/ItemSerie.svelte";
     import series from "../constants/series";
 
 </script>
 
 {#each series as serie}
-    <span>{series.titulo}</span>
+    <ItemSerie {serie} />
 {/each}
 
