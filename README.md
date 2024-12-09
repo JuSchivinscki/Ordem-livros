@@ -1,14 +1,20 @@
 # Romance em Páginas 🌟  
 
+![image](https://github.com/user-attachments/assets/9d604887-148b-43ef-96c2-5d438caddeb5)
+
 **Romance em Páginas** é o resultado de um desafio pessoal: sair da minha zona de conforto e transformar os conhecimentos adquiridos no curso **Formação Dev** em um projeto autoral. Este site combina minha paixão por livros de romance com meu aprendizado em tecnologias modernas, criando uma plataforma visualmente atraente e funcional para explorar o universo literário.
 
 ---
 
 ## 📚 Sobre o Projeto  
 
-O site foi desenvolvido para apresentar uma paixão minha desde pequena, só que dessa vez conectando minha paixão por livros e a minha paixão por tecnologia. O Site possui uma estética romantica buscando tons de vermelho, branco e preto. Pode-se navegar pela menu lateral interagindo com todo o projeto, sem comentar com a implmentação de uma API do The New York Times. 
+O site foi desenvolvido para apresentar uma paixão minha desde pequena, só que dessa vez conectando minha paixão por livros e a minha paixão por tecnologia. A ideia central do projeto é além de mostrar meu conhecimentos adquiridos durante o desenvolvimento do projeto é também mostrar um pouco um dos meus hobbies favoritos a leitura. 
+O Curso não mostra todas as funcionalidades do menu lateral, deixando de fora e aberto para implementação e criatividade do aluno, e gostaria de comentar meus planos futuros em relação cada tópico, que ainda não tenho conhecimento para aplicar no momento, mas continuo estudando para um dia conseguir. 
 
-A ideia central do projeto é oferecer um espaço que celebre histórias que tocam o coração, ao mesmo tempo que demonstra minhas habilidades técnicas e criativas no desenvolvimento web.
+Principais livros: Adicionar todos os livros que está na pasta livros.js e dividir por autor(a).
+
+Últimas Noticias/Series Populares/Resenhas: Utilizar API do The New York Times
+
 
 ---
 
@@ -26,12 +32,6 @@ A combinação dessas ferramentas possibilitou a construção de um site respons
 
 ---
 
-## 📸 Captura de Tela  
-
-![Captura de Tela](./screenshot.png)  
-
-
----
 
 ## 🛠 Objetivos de Desenvolvimento  
 
@@ -54,4 +54,4 @@ Ao criar o **Romance em Páginas**, tive a oportunidade de conectar minha paixã
 ## 📬 Contato  
 
 Se você deseja contribuir, compartilhar feedback ou trocar ideias sobre tecnologia e literatura, entre em contato comigo:  
-
+[LinkedIn](www.linkedin.com/in/juliaschivinscki)  
