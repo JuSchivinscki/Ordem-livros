@@ -4,7 +4,10 @@
 
 </script>
 
-{#each series as serie}
-    <ItemSerie {serie} />
-{/each}
+<div class="flex flex-col gap-5">
+    {#each series as serie}
+        <ItemSerie {serie} />
+    {/each}
+</div>
+
 

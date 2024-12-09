@@ -1,155 +1,73 @@
 import autores from "./autores";
 
 const series = [
-    {
-        id: "livros-ali",
-        titulo: "Ali Hazelwood",
-        autor: autores[0],
-        livros: [
-          {
-            id: "the-love-hypothesis",
-            titulo: "The Love Hypothesis",
-            descricao: "Uma comédia romântica que segue a cientista Olive Smith enquanto ela se envolve em um namoro falso com um professor para provar um ponto e acaba descobrindo o amor verdadeiro.",
-            imagem: "https://linkparaimagem.com/the-love-hypothesis.jpg",
-            link: "https://www.amazon.com/dp/0593336828"
-          },
-          {
-            id: "love-on-the-brain",
-            titulo: "Love on the Brain",
-            descricao: "Bee Königswasser é uma neurocientista que precisa trabalhar com um rival no mundo acadêmico, Levi Ward, em um projeto da NASA, onde a tensão inicial dá lugar a algo mais profundo.",
-            imagem: "https://linkparaimagem.com/love-on-the-brain.jpg",
-            link: "https://www.amazon.com/dp/0593336844"
-          },
-          {
-            id: "below-zero",
-            titulo: "Below Zero",
-            descricao: "Uma engenheira aeroespacial enfrenta perigos no Ártico enquanto luta com emoções conflitantes em relação a um colega que ela nunca imaginou confiar.",
-            imagem: "https://linkparaimagem.com/below-zero.jpg",
-            link: "https://www.amazon.com/dp/0593437810"
-          }
-        ]
-      }, 
       {
         id: "livros-jenny-1",
-        titulo: "To All The Boys I've Loved Before",
+        titulo: "Para Todos os Garotos que Já Amei",
         autor: autores[1],
-        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_1_5lryvO4dnEzwUriV6FMIoGxbPtc0ZIg&s",
+        imagem: "https://i.pinimg.com/736x/d9/5b/fd/d95bfd8cab960ffd5bf0222126da48e0.jpg",
+        descricao: "A trilogia Para Todos os Garotos que Já Amei, escrita por Jenny Han, acompanha a vida de Lara Jean, uma adolescente sonhadora que escreve cartas de amor secretas para todos os garotos por quem já teve sentimentos, sem intenção de enviá-las. Porém, quando essas cartas são misteriosamente enviadas, sua vida amorosa vira de cabeça para baixo. Entre situações cômicas e momentos emocionantes, Lara Jean precisa lidar com suas emoções, descobrir o que realmente sente e aprender a navegar pelos desafios do amor e da adolescência. É uma história cativante sobre amadurecimento, família e os altos e baixos dos primeiros amores.",
         livros: [
           {
             id: "to-all-the-boys-ive-loved-before",
-            titulo: "To All the Boys I've Loved Before",
+            titulo: "Para Todos os Garotos que Já Amei",
             descricao: "Lara Jean Song escreve cartas secretas para todos os garotos por quem já se apaixonou, mas sua vida vira de cabeça para baixo quando essas cartas são misteriosamente enviadas.",
-            imagem: "https://m.media-amazon.com/images/I/71DOCuHkFFL._SY425_.jpg",
-            link: "https://www.amazon.com/Boys-Loved-Before-BOOK-ONLY/dp/1407170120/ref=sr_1_5?crid=3TISO9LOCQN3C&dib=eyJ2IjoiMSJ9.d3cwOwB-VZHYxiBiFy6LPug-4utFNyeu-zpB_jcU3mHT5YMfQ7g8gIjyozvdF7-EJS6WFwl_Y9EenmsuMCjj1cDSgF2Um5JyspEXRstDdE1jBJmL_IG_YWTWH0xU9CjwGbr6gNmHETMIhDEN4DoS5Ct2pRVAgwCTsOlVOZHRe2M5-9kTOLcBa_3RbjkD0qE5ZP4Wis4SW-YsplAYFhBZ5VzcrnxJcWO-qF0p_q-xxM0.n-m3ojw8sKrH9ZwGrHokqgiKJYFcBAG8-HFO9Ix4uuA&dib_tag=se&keywords=To+All+the+Boys+I%27ve+Loved+Before&qid=1733412027&s=books&sprefix=to+all+the+boys+i%27ve+loved+before%2Cstripbooks-intl-ship%2C404&sr=1-5"
+            imagem: "https://m.media-amazon.com/images/I/515ei7W11aL._SY445_SX342_.jpg",
+            link: "https://www.amazon.com.br/Para-Todos-Garotos-que-Amei/dp/8580577268/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2PPGVG97EDPO7&dib=eyJ2IjoiMSJ9.tBkcEVf7Jx710WdrFqE7jbxk2Ck_zQCe4btuLXNhKnTO2HDOAyol78Hv0eRUyXbLopMiI5_SnppQ15aBgneBW-QzSGHLZnuixm3_cDJNZT2qGYFgk3XTByZHSMO7Nlhwgp0ZAJL0E9_9L3VrGSMOrg.QFHqMaHnNNASkIZJ7ATIi_p0tWcAyFxy1w4_XPcv5u0&dib_tag=se&keywords=para+todos+os+garotos+que+j%C3%A1+amei+capa+do+filme&qid=1733576297&sprefix=para+todos+os+garotos+que+j%C3%A1+amei+capa+do+fil%2Caps%2C360&sr=8-2"
           },
           {
             id: "ps-i-still-love-you",
-            titulo: "P.S. I Still Love You",
+            titulo: "P.S. Ainda amo você",
             descricao: "A sequência de 'To All the Boys I've Loved Before', onde Lara Jean enfrenta novos desafios em seu relacionamento e revisita sentimentos por outro garoto.",
             imagem: "https://m.media-amazon.com/images/I/71b6mkYD6XL._SY425_.jpg",
-            link: "https://www.amazon.com/P-S-Still-Love-Loved-Before/dp/1534469265/ref=sr_1_3?crid=3TISO9LOCQN3C&dib=eyJ2IjoiMSJ9.d3cwOwB-VZHYxiBiFy6LPug-4utFNyeu-zpB_jcU3mHT5YMfQ7g8gIjyozvdF7-EJS6WFwl_Y9EenmsuMCjj1cDSgF2Um5JyspEXRstDdE1jBJmL_IG_YWTWH0xU9CjwGbr6gNmHETMIhDEN4DoS5Ct2pRVAgwCTsOlVOZHRe2M5-9kTOLcBa_3RbjkD0qE5ZP4Wis4SW-YsplAYFhBZ5VzcrnxJcWO-qF0p_q-xxM0.n-m3ojw8sKrH9ZwGrHokqgiKJYFcBAG8-HFO9Ix4uuA&dib_tag=se&keywords=To+All+the+Boys+I%27ve+Loved+Before&qid=1733412072&s=books&sprefix=to+all+the+boys+i%27ve+loved+before%2Cstripbooks-intl-ship%2C404&sr=1-3"
+            link: "https://www.amazon.com.br/gp/product/B019CSQ8GA?ref_=dbs_p_pwh_rwt_cpsb_cl_1&storeType=ebooks"
           },
           {
             id: "always-and-forever-lara-jean",
-            titulo: "Always and Forever, Lara Jean",
+            titulo: "Agora e para sempre Lara Jean",
             descricao: "No último livro da série, Lara Jean lida com as incertezas do futuro enquanto se prepara para a faculdade e navega em seu relacionamento.",
             imagem: "https://m.media-amazon.com/images/I/71di4byC7OL._SY425_.jpg",
-            link: "hhttps://www.amazon.com/Always-Forever-Lara-Loved-Before-dp-1534497250/dp/1534497250/ref=dp_ob_title_bk"
+            link: "https://www.amazon.com.br/gp/product/B072DVT6N3?ref_=dbs_p_pwh_rwt_cpsb_cl_2&storeType=ebooks"
           }
         ]
       },
 
       {
         id: "livros-jenny-2",
-        titulo: "The summer i turned pretty",
+        titulo: "O Verão Que Mudou a Minha Vida",
         autor: autores[1],
-        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL_1_5lryvO4dnEzwUriV6FMIoGxbPtc0ZIg&s",
+        imagem: "https://i.pinimg.com/736x/37/b5/72/37b572c958ea6ea3d03581d81b364f98.jpg",
+        descricao: "A trilogia O Verão Que Mudou Minha Vida, de Jenny Han, narra a história de Belly, uma adolescente que passa todos os verões na casa de praia de sua família, junto com os irmãos Conrad e Jeremiah. Para ela, esses verões sempre foram mágicos, mas tudo muda quando Belly começa a se enxergar como mais do que a garotinha da turma. Entre descobertas, romances e corações partidos, a série explora as complexidades do amor, amadurecimento e a importância dos laços familiares. É uma história envolvente sobre crescer e descobrir quem você é, enquanto lida com as mudanças inevitáveis da vida.",
         livros: [
           {
             id: "the-summer-i-turned-pretty",
-            titulo: "The Summer I Turned Pretty",
+            titulo: "O Verão que mudou a minha vida",
             descricao: "Belly Conklin sempre passou os verões em Cousins Beach, mas este verão muda tudo ao lidar com primeiros amores e descobertas pessoais.",
             imagem: "https://m.media-amazon.com/images/I/71FFo6kU5NL._SY425_.jpg",
-            link: "https://www.amazon.com/Summer-I-Turned-Pretty/dp/1665922079/ref=sr_1_1?crid=3CEOPSBR6H5A4&dib=eyJ2IjoiMSJ9.mU9WwoY1plB5KryYanEqqsApJ44xZYwA1G1AYfnyjtbzidnkxs_t96SK1yeqKuaeyuALqQrNJTOrPf2nlWbRgFQsDdxkOBHd0bEABhLAVR-atOa9OR5XVHJX0Z24GcniG6aKW87dCMzdHxCEsId4QgMVewN9EJyvdRqSJWNWjXi5xMOQyD2fp8t247u0rJzeqWPrWUILt24QDjKpD5bvAIurKxgcv0B8niYCS0BtiwY.UlpKTY1rGgLdD54ckVMXJhlx8AQbydTfJdm-fP6jQXg&dib_tag=se&keywords=The+Summer+I+Turned+Pretty&qid=1733412246&s=books&sprefix=%2Cstripbooks-intl-ship%2C988&sr=1-1"
+            link: "https://www.amazon.com.br/ver%C3%A3o-mudou-minha-Trilogia-Ver%C3%A3o-ebook/dp/B07MMNV19P?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.X19aZT5kmZbXtvwTWNMQ9T8v0q4y3A3pf3iW0nNYmpYiNEktWZbTMk6MEAoMDfroBoqPB4h_gAudVdCzS3NO5y-hwQ73jvmgE1WYfcucKA2ZVZv5JFlAWgozd_RQ8BQt85_GUUW0cB7V4hRtAnktWg8bpMvIINB9bH0YOA8kF07VYsPmspOfSn23T6Nq2jlb17b0WJ1jzFoazTtbbImtRD471BfHl0PXyh5k9MrjfrY.jOxiNz_7Et1zLRbnqFhtXv0iFIL0x9_lfNOqTCpF5lY&dib_tag=AUTHOR"
           },
           {
             id: "its-not-summer-without-you",
-            titulo: "It's Not Summer Without You",
+            titulo: "Sem você não é verão",
             descricao: "Na sequência, Belly enfrenta a dor da perda e tenta recuperar os verões que ela tanto amava em Cousins Beach.",
             imagem: "https://cdn11.bigcommerce.com/s-gjd9kmzlkz/images/stencil/1920w/products/30975/30627/Not_9781665937993__85809.1666913069.jpg?c=1",
-            link: "https://www.amazon.com/Its-Summer-Without-SUMMER-Paperback/dp/B00QO6KSLA/ref=sr_1_2?crid=NKVJYXK64VHD&dib=eyJ2IjoiMSJ9.dM4VVr3Sh2Xzq4vOAKFmzrLUagYJrm1_faKH2WaeijigdlmvtiHKN8B3PhgOdXWTeZwjcNZsg9bX6mM4ghHiKHBBH6v01QC5c_VFIQawQjDAr1kuM8c1CYRw2IsKAy-WKTJ025AL2rZ_v2Kq--oMO3rTmZKWuD0niMBUL_Ns4ZCGOp1V147G2mgd0nfYVJ-IHcbhtR0woVisguH8y3xUMZfLr6yRkLYwobHp0l2PYSE.arIDOXu4pM7NF7v0BWpgsVrhAQfo3DRaln7bj7QroZQ&dib_tag=se&keywords=its-not-summer-without-you&qid=1733412314&s=books&sprefix=the+summer+i+turned+pretty+trilogy%2Cstripbooks-intl-ship%2C482&sr=1-2"
+            link: "https://www.amazon.com.br/voc%C3%AA-ver%C3%A3o-Trilogia-Ver%C3%A3o-Livro-ebook/dp/B07MMNW75V?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.X19aZT5kmZbXtvwTWNMQ9T8v0q4y3A3pf3iW0nNYmpYiNEktWZbTMk6MEAoMDfroBoqPB4h_gAudVdCzS3NO5y-hwQ73jvmgE1WYfcucKA2ZVZv5JFlAWgozd_RQ8BQt85_GUUW0cB7V4hRtAnktWg8bpMvIINB9bH0YOA8kF07VYsPmspOfSn23T6Nq2jlb17b0WJ1jzFoazTtbbImtRD471BfHl0PXyh5k9MrjfrY.jOxiNz_7Et1zLRbnqFhtXv0iFIL0x9_lfNOqTCpF5lY&dib_tag=AUTHOR"
           },
           {
             id: "well-always-have-summer",
-            titulo: "We'll Always Have Summer",
+            titulo: "Sempre teremos verão",
             descricao: "No desfecho emocionante da série, Belly enfrenta escolhas difíceis sobre o amor e o futuro, enquanto os laços familiares são testados.",
             imagem: "https://m.media-amazon.com/images/I/41RJ5A7BUjL._SY445_SX342_.jpg",
-            link: "https://www.amazon.com.br/Well-Always-Have-Summer-Jenny/dp/0141330562"
-          }
-        ]
-      },
-
-      {
-        id: "livros-sarah",
-        titulo: "Sarah Adams",
-        autor: autores[2],
-        livros: [
-          {
-            id: "the-cheat-sheet",
-            titulo: "The Cheat Sheet",
-            descricao: "Uma comédia romântica sobre melhores amigos que começam a questionar seus sentimentos enquanto lidam com a atenção da mídia.",
-            imagem: "https://m.media-amazon.com/images/I/41bkvywmw1L._SY445_SX342_.jpg",
-            link: "https://www.amazon.com.br/T%C3%A1ticas-do-amor-Sarah-Adams/dp/6555608498/ref=sr_1_1?crid=3R10LK7TPEHTG&dib=eyJ2IjoiMSJ9.W59lGHutZaTZngJQYraymfs0k8X2anvXFBScC4QDzhi5HEg3m7pFL0M-_tYKucn76Mcm65QcjWwvZmc0LDDwRZchtjd_UQ16bZ6h2X_Tpcua1KwS00DQjirIHsD-3lsOFmvF6n5zT2_MaXvzlBy5jy6tOCVEvGgEWCQk8kE6eDpXEjXOUn8R8xZ9b6KxK961HkcyMNalgAO3CIxvGnKEdCHTIEc_nWQvGvnAmcvV5dTaXQMYlmx0WTzUw83ayhkf5rn0HXiIBhV5OmJnEd1xySwWHd6jl01vNF0stivYCaY.S30jDwF7MTORh8Rn-Agu1v_KUqc85zzu3gDuYiZV_VA&dib_tag=se&keywords=the+cheat+sheet&qid=1733412942&sprefix=the+cheat+s%2Caps%2C313&sr=8-1"
-          },
-          {
-            id: "when-in-rome",
-            titulo: "When in Rome",
-            descricao: "Inspirada pela música de Audrey Hepburn, uma estrela pop encontra o amor verdadeiro em uma pequena cidade.",
-            imagem: "https://m.media-amazon.com/images/I/81MJeRCwTIL._SY425_.jpg",
-            link: "https://www.amazon.com.br/When-Rome-charming-rom-com-sensation-ebook/dp/B09QYM92KH/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=YVUSUD6P0R7Z&dib=eyJ2IjoiMSJ9.je1Fc-O_U5Oyuie9HD44VZDF9D8ERmgsuc_tn_p1fexE-xlclc7cve10dr5_Hx3UB0zXaH55Fs9aOFrvEEPMJa8r_hoUcfflIofbn14PhlyJoUqRmR7sXS_KdH3mPipUJNSsqbkEs3FdEgL6nCjj9gg0fjC6NF0TOUX4BgMb73vD_Gyh01Cu2jQK7oUMkbJocetLVsO9ylyI5yhzPNg_fEXvoIM6NK9QILYEhoFc1_RXyvPJxwmUXeZIe7DdwqIZkGO4QiB6AFimvMCQrhb9wixZx5K-JgmlDpoCJHsQOYU.RSff66yKiUgJbLIQ43W6_WkCmWwRfFc2YEMn2uu0u90&dib_tag=se&keywords=when+i+rome&qid=1733412916&sprefix=when+i+%2Caps%2C289&sr=8-1"
-          },
-          {
-            id: "practice-makes-perfect",
-            titulo: "Practice Makes Perfect",
-            descricao: "Uma florista tímida busca ajuda de um bad boy para praticar seu lado romântico e acaba descobrindo o amor.",
-            imagem: "https://m.media-amazon.com/images/I/51VcIAOxbuL._SY445_SX342_.jpg",
-            link: "https://www.amazon.com.br/Cheat-Sheet-Novel-English-ebook/dp/B09Q6K3BV7/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.Rbvi6KEEgvFESK5GGYRGwIMW8zlw_9Ne9xlUV8hr2V2TGFqojvxxmfyIMcu9dx2TZoyL2TccmPSlq7UtAqqWSUoqlGGGhsLUwhW3lhu7mQ2OFH6uizafIJqdmT6R0gfLLGT2fQK-mLWhFI9k9STue9VTebmjgDOJMcKT5unrn0WxFcvDQ9YbxDbA8p8lv7KfpzJfT3gplDo3biKZWFPy6VLzzVnPVLD3w3J5c8QtUZZc7EyOm-tgFp6G1oEoyMScQmjKMw-RILQUkvTbH_DJu0oI_JjQFsO68nfiAmXZBQffDgGwwJ.GAbHbpTsjXBxK1F5sdKMiCPptqMI_Wbo8qiCL_6gd7s&dib_tag=se&keywords=practice+makes+perfect&qid=1733413200&sprefix=when+i+rome+practice%2Caps%2C249&sr=8-2"
-          }
-        ]
-      },
-
-      {
-        id: "livros-collen-1",
-        titulo: "Collen Hover",
-        autor: autores[3],
-        livros: [
-          {
-            id: "verity",
-            titulo: "Verity",
-            descricao: "Lowen Ashleigh é contratada para terminar os livros de uma autora famosa, mas descobre segredos sombrios em sua casa.",
-            imagem: "https://m.media-amazon.com/images/I/91SDZ2eUj+L._SY342_.jpg",
-            link: "https://www.amazon.com.br/Verity-Colleen-Hoover/dp/8501117846/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15KKGLOCWS06Y&dib=eyJ2IjoiMSJ9.WSo6UanQzlr7jZF7D8KPVMsLo69rnu6nkVSUJf433-Onas8XNhd3KR5rUu0h2LZUf_hk6NT9ePWLctt4ElypwIruurHRdXp6uxOsNGY5JMd-BeRavkE0-E_2uDClx6N1nFHQMi0JSDsgeKAsrUFQjP6okSTeUwunzMJfLzjNNPX8PXUvEinFgrEa4V5wgodUDV5MLLd85g1vyehLV7fGjIgxrk4kwHW0gr6WENUGnqCeMjVq2J7X0HCc_fYCA_gWn5YG0qGkOdPKAJ-TdUrS3pnMRyLy5fbBkDSnks_B2Fc.rXgi6pNTC_1BmKuRBu9F0rAtUGlgvaHSQrw6G9LZI14&dib_tag=se&keywords=verity&qid=1733413161&sprefix=veri%2Caps%2C605&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
-          },
-          {
-            id: "ugly-love",
-            titulo: "Ugly love",
-            descricao: "Um romance emocionante entre Tate e Miles, que revela os altos e baixos do amor verdadeiro.",
-            imagem: "https://m.media-amazon.com/images/I/41mBCtaJ1XL._SY445_SX342_.jpg",
-            link: "https://www.amazon.com.br/Ugly-Love-English-Colleen-Hoover-ebook/dp/B00HB62MC0/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2AEUPB14000R2&dib=eyJ2IjoiMSJ9.FY-YAevpeNfIi8z41OWQ216_xSrdUvwgZAZfDRnIli9r8L8_vbT2WubC89-6h6Tz23VLxmFNguuNjkJKyR9dPHs7Y-MkuVNlFeFnSMaU41iYXtKU8ZcFeLIgrSWgkMIb1UtysTWpqQ_3F31HUKzqi_7ySjREq32XGGfM5qnk3-0dmrvJ9vM8YXoETeNtWphDefTI5luhZeUJ6kW5nF4Xe4Wb1T_olJMiDdIz5kiQKBBOZLY2aQG-YIw-Ybh45hOV4Lcm2vcSrCxPHMCwmSZ__HgjcQFkEXSkageDRR_Em_k.uL3nzi2baTVzHK4L09gFKYFlZPeSzdygTBphBqZRt1A&dib_tag=se&keywords=ugly+love&qid=1733413224&sprefix=ugly+lo%2Caps%2C456&sr=8-1"
-          },
-          {
-            id: "All-your-perfects",
-            titulo: "All Your Perfects",
-            descricao: "Quinn e Graham enfrentam os desafios de um casamento com problemas e lutam para superar as dificuldades do passado e do presente.",
-            imagem: "https://m.media-amazon.com/images/I/71L5vWJf6JL._SY342_.jpg",
-            link: "https://www.amazon.com.br/All-Your-Perfects-Novel-English-ebook/dp/B078MC547V/ref=sr_1_1?crid=2EW7QP9N7HZ9L&dib=eyJ2IjoiMSJ9.11_lp89A-y0_ewaARlFmmFSGaj3T9vgHwBuw4aK8K7unYEqO1-pPPlzFz5zlbJaUagFdqaAK8ZuqEwxpDl5SjjzGdDL22rxMGdGjV6cZFO1pezphi0dgvhv5VABR7oRzfSWTkooIT2G2933d5mttPXJ7jsWelFegoID439zaew9HCDQAyTj38ZPqhgb0boH90kbw9DODQkZdTCLLDtDKNTyGvWuLOc27LUKoqc3lZh8SNzymh3Nct5xR_bMTDGa4YLVdMACjzwiRUYxYupw7oY8iWYIFS1N1yHmWkxALpN8.ZzTbTamBXcHH0CFIghXlwgLZs-I8fI6V3E7GxBJ3Jao&dib_tag=se&keywords=all+your+perfects+colleen+hoover&qid=1733413499&sprefix=all+your+per%2Caps%2C307&sr=8-1"
+            link: "https://www.amazon.com.br/Sempre-teremos-ver%C3%A3o-Trilogia-Ver%C3%A3o-ebook/dp/B07MQVYMGX?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.X19aZT5kmZbXtvwTWNMQ9T8v0q4y3A3pf3iW0nNYmpYiNEktWZbTMk6MEAoMDfroBoqPB4h_gAudVdCzS3NO5y-hwQ73jvmgE1WYfcucKA2ZVZv5JFlAWgozd_RQ8BQt85_GUUW0cB7V4hRtAnktWg8bpMvIINB9bH0YOA8kF07VYsPmspOfSn23T6Nq2jlb17b0WJ1jzFoazTtbbImtRD471BfHl0PXyh5k9MrjfrY.jOxiNz_7Et1zLRbnqFhtXv0iFIL0x9_lfNOqTCpF5lY&dib_tag=AUTHOR"
           }
         ]
       }, 
       {
         id: "livros-collen-2",
-        titulo: "Duologia É assim que acaba",
+        titulo: "É assim que acaba",
+        imagem: "https://i.pinimg.com/736x/9e/8e/f9/9e8ef93c4b2ad79c2bfbfbf624543e61.jpg",
         autor: autores[3],
+        descricao: "A duologia É Assim que Acaba e É Assim que Começa, de Colleen Hoover, traz uma história intensa e emocional sobre amor, resiliência e segundas chances. No primeiro livro, acompanhamos Lily Bloom, uma jovem determinada que conhece Ryle, um neurocirurgião encantador, com quem vive um romance apaixonado. No entanto, à medida que segredos vêm à tona, Lily precisa enfrentar questões dolorosas sobre seu passado e tomar decisões difíceis para proteger a si mesma. Já no segundo livro, a narrativa explora a perspectiva de Atlas, o primeiro amor de Lily, trazendo novas camadas de emoção e esperança à trama. Juntos, os livros oferecem uma reflexão profunda sobre os desafios dos relacionamentos e o poder da autodescoberta.", 
         livros: [
                     {
             id: "it-ends-with-us",
@@ -167,24 +85,13 @@ const series = [
           },
         ]
       },
-      {
-            id: "livros-Rachael",
-            titulo: "Rachael",
-            autor: autores[4],
-            livros: [
-              {
-                id: "five-feet-apart",
-                titulo: "Five Feet Apart",
-                descricao: "Dois adolescentes com fibrose cística se apaixonam, mas precisam manter uma distância de cinco pés para não se infectarem.",
-                imagem: "https://m.media-amazon.com/images/I/81a7480-s9L._SY385_.jpg",
-                link: "https://www.amazon.com.br/Five-Feet-Apart-Rachel-Lippincott/dp/1471182312/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.Ix8ACJ4Noe9tnAlmLBqlOWLxNvtpxyE7XslaTqFuXeLIvpurYTTgMp5_K1nQQFTQoixFZUkZGAKfcD9MF5E-P-NGJHdp9y2VbuZmUo58r6Q9io732X654BBFpUHRA73xp34eF2EEm3O8uefMlp-dhB6CQQpmcylwuB_rUC20gWdf83ACuavNQLJVc0QrGEh5uyxWYl26j4silmfmvwwgyeQGZyBwweB7mx5VMLFLUV8DUH6olBVM5IHJJElEIoPtN7OQI-E0bFAL7nIpsKJ_Lkj7OYJdnC0ASR-8ry07y80.0hgrhI6xRk8GbH4uYuDQEx9FtX-IPKWLPq4MR9aWbOU&qid=1733413691&sr=8-1"
-              },
-            ]
-      }, 
+
       {
         id: "livros-ana",
         titulo: "Twisted Series",
+        imagem: "https://m.media-amazon.com/images/I/61h9dTXrw5L._AC_UF1000,1000_QL80_.jpg",
         autor: autores[5],
+        descricao: "A Twisted Series, de Ana Huang, é uma série contemporânea de romances que combina paixão, drama e segredos intensos. Cada livro acompanha um casal diferente, entrelaçando histórias de amor com temas como amizade, lealdade e crescimento pessoal. Com protagonistas fortes, romances arrebatadores e reviravoltas inesperadas, a série explora os desafios de abrir o coração e lidar com as consequências de escolhas complicadas. Perfeita para quem gosta de romances emocionantes com uma pitada de mistério e personagens cativantes.",
         livros: [
           {
             id: "twisted-love",
@@ -218,53 +125,27 @@ const series = [
       }, 
       {
         id: "livros-adam",
-        titulo: "Duologia They both die at the end ",
+        titulo: "Os Dois Morrem No Final",
+        imagem: "https://i0.wp.com/poltronanerd.com.br/wp-content/uploads/2021/10/poltrona-os-dois-morrem-no-final.jpg?fit=512%2C298&ssl=1",
         autor: autores[6],
+        descricao: " A duologia Os Dois Morrem no Final e O Primeiro a Morrer no Final, de Adam Silvera, é uma história emocionante e reflexiva sobre vida, amor e conexões humanas. Com uma narrativa cativante, os livros exploram como viver plenamente, mesmo diante da incerteza e do tempo limitado, trazendo lições profundas e momentos inesquecíveis.", 
         livros: [
           {
             id: "they-both-die-at-the-end",
-            titulo: "They Both Die at the End",
+            titulo: "Os dois morrem no final",
             descricao: "Mateo e Rufus recebem uma ligação da Central da Morte, com a notícia de que morrerão naquele dia. Eles se encontram e vivem uma experiência transformadora em 24 horas.",
-            imagem: "https://m.media-amazon.com/images/I/41yUDMiJ9JL._SY445_SX342_.jpg",
+            imagem: "https://m.media-amazon.com/images/I/61QhNRjycfL._AC_UF1000,1000_QL80_.jpg",
             link: "https://www.amazon.com.br/They-Both-Die-at-End/dp/0062457802/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=IGNGX5KAPNXU&dib=eyJ2IjoiMSJ9.ZsKdeko4gP55DphKjJGULbcpx51bPcQzKC24GODkmPdQsSiIBao1I1zbAanhyAUUXaLR0PFS4LQTx7LdDnlolJuRJ3Hmm459r2bXqtdBRSSucoBuHsCDSaVkQO9pgAvdrUjVJUV27uIjkbKvT1mSXdNm1nrKBB0oovybLfE5IZXiFihOaoL4UzsToZIokfGT8-70uP6a3l5hK_su-shNDLmnozOxqrfgc3eDkOGIZpY.UiwmVfF18orYTntefaxdV_W1XDHN6c0YGTss2pfCUaE&dib_tag=se&keywords=They+Both+Die+at+the+End&qid=1733414057&s=books&sprefix=%2Cstripbooks%2C591&sr=1-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
           },
           {
             id: "the-first-to-die-at-the-end",
-            titulo: "The First to Die at the End",
+            titulo: "O primeiro a morrer no final ",
             descricao: "Prequela de 'Os Dois Morrem no Final', que revela como o sistema de 'Central da Morte' surgiu e a jornada dos primeiros jovens que receberam a ligação fatal.",
-            "imagem": "https://m.media-amazon.com/images/I/61FZmuA3WAL.jpg",
+            "imagem": "https://m.media-amazon.com/images/I/81ZYw08O2bL._UF894,1000_QL80_.jpg",
             link: "https://www.amazon.com.br/First-Die-at-End/dp/0063240807/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=IGNGX5KAPNXU&dib=eyJ2IjoiMSJ9.ZsKdeko4gP55DphKjJGULbcpx51bPcQzKC24GODkmPdQsSiIBao1I1zbAanhyAUUXaLR0PFS4LQTx7LdDnlolJuRJ3Hmm459r2bXqtdBRSSucoBuHsCDSaVkQO9pgAvdrUjVJUV27uIjkbKvT1mSXdNm1nrKBB0oovybLfE5IZXiFihOaoL4UzsToZIokfGT8-70uP6a3l5hK_su-shNDLmnozOxqrfgc3eDkOGIZpY.UiwmVfF18orYTntefaxdV_W1XDHN6c0YGTss2pfCUaE&dib_tag=se&keywords=They+Both+Die+at+the+End&qid=1733414107&s=books&sprefix=%2Cstripbooks%2C591&sr=1-3&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
           },
         ]
       },
-      {
-        id: "livros-casy",
-        titulo: "Casy",
-        autor: autores[7],
-        livros: [
-          {
-            id: "red-white-and-royal-blue",
-            titulo: "Red, White & Royal Blue",
-            descricao: "O romance conta a história de Alex Claremont-Diaz, filho da presidente dos Estados Unidos, e de Henry, príncipe da Inglaterra, que acabam se apaixonando, o que gera uma grande reviravolta na política e nas vidas deles.",
-            imagem: "https://m.media-amazon.com/images/I/41rWJAGUMgL._SY445_SX342_.jpg",
-            link: "https://www.amazon.com.br/White-Royal-Blue-Casey-McQuiston/dp/8381691680/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3L9NT5X71UP8W&dib=eyJ2IjoiMSJ9.FEfbIO9rk2_ataA7ZF5m9otuVrkrejctFUEwsAiGE9A9oWIjKlVW0MsD5c-cT61wKCtB-nETaMCHb63lD38m_SwA-IWW9bF4O4BIcA5Rt2iFJ1g5GP4VQrrzT1rXYjMHULhIYe4NwgWWWhU2SqOG8gvEA8r2QxC7dvsAWhN7Dn-jw5l35hFtSgql0_RdqF8LQAgbgN72E4qO3CD-fGUJJH4bGLsoa4533pDBqHCv7uY.HwOQ11UH8TBvZAsLYclleQ9qusBNsjXkoeW2XSpvmlM&dib_tag=se&keywords=Red%2C+White+%26+Royal+Blue&qid=1733414188&s=books&sprefix=they+both+die+at+the+end%2Cstripbooks%2C835&sr=1-2&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
-          },
-          {
-            id: "one-last-stop",
-            titulo: "One Last Stop",
-            descricao: "August, uma jovem que se muda para Nova York, acaba se apaixonando por uma mulher misteriosa que viaja no metrô todas as noites. Mas o que ela não sabe é que a mulher é uma viajante no tempo.",
-            "imagem": "https://m.media-amazon.com/images/I/7125eYIFBxL._SY385_.jpg",
-            link: "https://www.amazon.com.br/Last-Stop-English-Casey-McQuiston-ebook/dp/B08FZB4B6F?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.QxLuOXwtCDMZJrNFxUbNr6hFwkxpY2hlFdgiAOQcUygKDpHELhjk-Ci7eDxKi196q6FQm_LbdlenlUZL-43Ko0aPP_uq1Ih8ZXc9gyFRxO4_6AU9q9uYSeJxf7ka2lH-pOArN-153gcohnBn4hbUg5B65dAoVPOnuq83mXauDyFPaGjRASVsQ9x-2Vk0-jrVvrpkTDGgfBtC_tk8HI621IAVlEDvQVhJh4Osx32PLrM.yF0QNWjqTXhffpRnJpAN1clrKvKhnbf1nNOAfOjDBn8&dib_tag=AUTHOR"
-          },
-          {
-            id: "i-kissed-shara-wheeler",
-            titulo: "I Kissed Shara Wheeler",
-            descricao: "Shara Wheeler, uma estudante popular, desaparece de repente, e três jovens vão em busca de pistas para entender o que aconteceu com ela, enquanto lidam com suas próprias descobertas pessoais.",
-            imagem: "https://m.media-amazon.com/images/I/71ECQBT904L._SY385_.jpg",
-            link: "https://www.amazon.com.br/Kissed-Shara-Wheeler-Novel-English-ebook/dp/B09CHCFFFL?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.QxLuOXwtCDMZJrNFxUbNr6hFwkxpY2hlFdgiAOQcUygKDpHELhjk-Ci7eDxKi196q6FQm_LbdlenlUZL-43Ko0aPP_uq1Ih8ZXc9gyFRxO4_6AU9q9uYSeJxf7ka2lH-pOArN-153gcohnBn4hbUg5B65dAoVPOnuq83mXauDyFPaGjRASVsQ9x-2Vk0-jrVvrpkTDGgfBtC_tk8HI621IAVlEDvQVhJh4Osx32PLrM.yF0QNWjqTXhffpRnJpAN1clrKvKhnbf1nNOAfOjDBn8&dib_tag=AUTHOR"
-          },
-        ]
-      }
 ];
 
 export default series;

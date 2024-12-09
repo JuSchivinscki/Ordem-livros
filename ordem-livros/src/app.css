@@ -1,3 +1,14 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+
+.botao {
+    @apply py-1 px-8 rounded-md;
+    @apply flex justify-center items-center gap-2;
+}
+
+.botao.vermelho {
+    @apply bg-red-900 text-white;
+    @apply hover:bg-red-950;
+
+}
