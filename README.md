@@ -45,7 +45,7 @@ Este projeto foi idealizado com os seguintes objetivos:
 
 ## 👩‍💻 Sobre Mim  
 
-Sou estudante de **Ciência da Computação** e apaixonada por desenvolvimento web. Com 23 anos, estou no início da minha jornada como desenvolvedora, e projetos como este refletem meu desejo de unir criatividade e tecnologia para criar soluções impactantes.  
+Sou estudante de **Ciência da Computação** e apaixonada por desenvolvimento web. Com 19 anos, estou no início da minha jornada como desenvolvedora, e projetos como este refletem meu desejo de unir criatividade e tecnologia para criar soluções impactantes.  
 
 Ao criar o **Romance em Páginas**, tive a oportunidade de conectar minha paixão por livros de romance com meu aprendizado técnico, transformando uma ideia em realidade.  
 
